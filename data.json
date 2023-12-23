@@ -22,5 +22,9 @@
     {
         "slug": "te",
         "url": "jothin.tech"
+    },
+    {
+        "slug": "dt",
+        "url": "dev.to/jothinkumar"
     }
 ]
