@@ -34,5 +34,9 @@
     {
         "slug": "9n",
         "url": "github.com/Jothin-kumar/a-maze"
+    },
+    {
+        "slug": "q2",
+        "url": "github.com/Jothin-kumar/pytk-hangman"
     }
 ]
