@@ -66,5 +66,17 @@
     {
         "slug": "3i",
         "url": "github.com/Jothin-kumar/flip-a-coin"
+    },
+    {
+        "slug": "8e",
+        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=easy"
+    },
+    {
+        "slug": "8m",
+        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=medium"
+    },
+    {
+        "slug": "8h",
+        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=hard"
     }
 ]
