@@ -78,5 +78,9 @@
     {
         "slug": "8h",
         "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=hard"
+    },
+    {
+        "slug": "9N",
+        "url": "github.com/Jothin-kumar/discord-bot"
     }
 ]
