@@ -1,4 +1,5 @@
 from json import load, dump
+from requests import get
 
 chrs = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890-."
 with open("data.json") as d:
@@ -11,6 +12,11 @@ def new_slug():
 def slug_exists(slug):
     for d in data:
         if d['slug'] == slug:
+            return True
+
+def url_exists(url):
+    for d in data:
+        if d['url'] == url:
             return True
 
 def validate_slug(slug):
@@ -29,8 +35,8 @@ def generate_slug():
 
 def new_redirect(slug):
     url = input("Enter url (without https://) (Example: jothin.tech): ")
-    from requests import get
     assert get(f"https://{url}").status_code == 200
+    assert not url_exists(url)
     data.append({'slug': slug, 'url': url})
 
 choice = input("Enter own slug? (Y/n): ").lower().strip()
