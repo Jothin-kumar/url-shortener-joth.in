@@ -69,15 +69,15 @@
     },
     {
         "slug": "8e",
-        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=easy"
+        "url": "a-maze.jothin.tech/2d/demo?level=easy"
     },
     {
         "slug": "8m",
-        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=medium"
+        "url": "a-maze.jothin.tech/2d/demo?level=medium"
     },
     {
         "slug": "8h",
-        "url": "maze-generation-demo.a-maze.pages.dev/2d/?level=hard"
+        "url": "a-maze.jothin.tech/2d/demo?level=hard"
     },
     {
         "slug": "9N",
